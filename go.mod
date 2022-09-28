@@ -1,9 +1,11 @@
-module github.com/alecanutto/fullcycle-go
+module github.com/alecanutto/fullcycle-aceleracao-go
 
 go 1.19
 
 require (
 	github.com/go-sql-driver/mysql v1.6.0
+	github.com/google/uuid v1.3.0
+	github.com/rabbitmq/amqp091-go v1.5.0
 	github.com/stretchr/testify v1.8.0
 )
 

@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 
-	"github.com/alecanutto/fullcycle-go/internal/order/entity"
+	"github.com/alecanutto/fullcycle-aceleracao-go/internal/order/entity"
 	_ "github.com/go-sql-driver/mysql"
 )
 
@@ -25,7 +25,7 @@ func NewOrderRepository(db *sql.DB) *OrderRepository {
 // )
 
 func (r *OrderRepository) Save(order *entity.Order) error {
-	stmt, err := r.Db.Prepare("INSERT INTO orders (id, price, tax, final_price VALUES (?, ?, ?, ?)")
+	stmt, err := r.Db.Prepare("INSERT INTO orders (id, price, tax, final_price) VALUES (?, ?, ?, ?)")
 	if err != nil {
 		return err
 	}

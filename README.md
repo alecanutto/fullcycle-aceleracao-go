@@ -5,7 +5,7 @@
 #### Go Intensivo
 
 - [x] **Dia 1 - 26/09** (Sobre a linguagem, oportunidades e primeiros passos)
-- [ ] **Dia 2 - 27/09** (Performance e Multithreading)
+- [x] **Dia 2 - 27/09** (Performance e Multithreading)
 - [ ] **Dia 3 - 28/09** (HTTP, APIs e Deployment)
 
 #### Projeto Prático
