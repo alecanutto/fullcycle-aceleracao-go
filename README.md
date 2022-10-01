@@ -6,7 +6,7 @@
 
 - [x] **Dia 1 - 26/09** (Sobre a linguagem, oportunidades e primeiros passos)
 - [x] **Dia 2 - 27/09** (Performance e Multithreading)
-- [ ] **Dia 3 - 28/09** (HTTP, APIs e Deployment)
+- [x] **Dia 3 - 29/09** (HTTP, APIs e Deployment)
 
 #### Projeto Prático
 
